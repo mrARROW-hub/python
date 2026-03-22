@@ -9,3 +9,5 @@ if fruit == "banana":
         print("underripe");
     elif fruit_color == "brown":
         print("overripe");
+else:
+    print("i don't know that!!!  :/");
