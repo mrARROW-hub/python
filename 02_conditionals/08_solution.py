@@ -1,8 +1,8 @@
-number_of_characters = int(input("How many characters are there in your Password? 🤔"));
+password = input("pls enter your password :");
 
-if number_of_characters <= 6:
-    print("Your password is Weak");
-elif number_of_characters <= 10:
-    print("Your password is Fine :)");
+if len(password) < 6:
+    print("Your password is too weak! :/\n learn now to make a strong password by our website :)");
+elif len(password) < 10:
+    print("Your password is completely fine :)");
 else:
-    print("Your password is preety Strong!!");
+    print("Your password is preety strong, Well Done!\n you realy look out for safety. :)");
